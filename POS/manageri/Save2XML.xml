@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProdusAbstract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>7</Id>
+    <Nume>Livrare</Nume>
+    <CodIntern>99882</CodIntern>
+    <Pret>50</Pret>
+    <Categorie>Categorie1</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>5</Id>
+    <Nume>Depanare</Nume>
+    <CodIntern>97232</CodIntern>
+    <Pret>200</Pret>
+    <Categorie>Categorie1</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Serviciu">
+    <Id>6</Id>
+    <Nume>Instalare</Nume>
+    <CodIntern>91582</CodIntern>
+    <Pret>400</Pret>
+    <Categorie>Categorie1</Categorie>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>1</Id>
+    <Nume>Calculator</Nume>
+    <CodIntern>157235</CodIntern>
+    <Pret>1800</Pret>
+    <Categorie>Categorie2</Categorie>
+    <Producator>USA</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>2</Id>
+    <Nume>Calculator</Nume>
+    <CodIntern>157235</CodIntern>
+    <Pret>1900</Pret>
+    <Categorie>Categorie2</Categorie>
+    <Producator>USA</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>8</Id>
+    <Nume>abc</Nume>
+    <CodIntern>126542</CodIntern>
+    <Pret>2449</Pret>
+    <Categorie>Categorie2</Categorie>
+    <Elem_pachet>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>1</Id>
+        <Nume>def</Nume>
+        <CodIntern>126345</CodIntern>
+        <Pret>1249</Pret>
+        <Categorie>Categorie2</Categorie>
+        <Producator>Romania</Producator>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>2</Id>
+        <Nume>eas</Nume>
+        <CodIntern>359129</CodIntern>
+        <Pret>500</Pret>
+        <Categorie>Categorie2</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>3</Id>
+        <Nume>asdfop</Nume>
+        <CodIntern>123523</CodIntern>
+        <Pret>700</Pret>
+        <Categorie>Categorie2</Categorie>
+      </ProdusAbstract>
+    </Elem_pachet>
+    <nrProd>1</nrProd>
+    <nrServ>2</nrServ>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>4</Id>
+    <Nume>Calculator</Nume>
+    <CodIntern>157235</CodIntern>
+    <Pret>2500</Pret>
+    <Categorie>Categorie3</Categorie>
+    <Producator>USA</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Produs">
+    <Id>3</Id>
+    <Nume>Calculator</Nume>
+    <CodIntern>157235</CodIntern>
+    <Pret>2700</Pret>
+    <Categorie>Categorie3</Categorie>
+    <Producator>USA</Producator>
+  </ProdusAbstract>
+  <ProdusAbstract xsi:type="Pachet">
+    <Id>9</Id>
+    <Nume>xyz</Nume>
+    <CodIntern>901273</CodIntern>
+    <Pret>2899</Pret>
+    <Categorie>Categorie3</Categorie>
+    <Elem_pachet>
+      <ProdusAbstract xsi:type="Produs">
+        <Id>1</Id>
+        <Nume>asdfop</Nume>
+        <CodIntern>983498</CodIntern>
+        <Pret>1499</Pret>
+        <Categorie>Categorie3</Categorie>
+        <Producator>Romania</Producator>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>2</Id>
+        <Nume>kvxpc</Nume>
+        <CodIntern>019230</CodIntern>
+        <Pret>600</Pret>
+        <Categorie>Categorie3</Categorie>
+      </ProdusAbstract>
+      <ProdusAbstract xsi:type="Serviciu">
+        <Id>3</Id>
+        <Nume>xjkcnx</Nume>
+        <CodIntern>012939</CodIntern>
+        <Pret>800</Pret>
+        <Categorie>Categorie3</Categorie>
+      </ProdusAbstract>
+    </Elem_pachet>
+    <nrProd>1</nrProd>
+    <nrServ>2</nrServ>
+  </ProdusAbstract>
+</ArrayOfProdusAbstract>

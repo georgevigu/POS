@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfPOS.Filtrari"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPOS"
+        mc:Ignorable="d"
+        Title="Filtrari" Height="350" Width="600">
+    <Grid>
+        <RadioButton x:Name="Radio1_Buton" Content="Categorie1" HorizontalAlignment="Left" Margin="51,113,0,0" VerticalAlignment="Top" Checked="Radio1Buton_Checked"/>
+        <RadioButton x:Name="Radio2_Buton" Content="Categorie2" HorizontalAlignment="Left" Margin="51,133,0,0" VerticalAlignment="Top" Checked="Radio2Buton_Checked"/>
+        <RadioButton x:Name="Radio3_Buton" Content="Categorie3" HorizontalAlignment="Left" Margin="51,153,0,0" VerticalAlignment="Top" Checked="Radio3Buton_Checked"/>
+        <ListBox x:Name="Lista_Filtrata" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="219,40,18,51"/>
+        <RadioButton x:Name="ButonMaiMic" Content="&lt;" HorizontalAlignment="Left" Margin="33,45,0,0" VerticalAlignment="Top" Checked="ButonMaiMic_Checked"/>
+        <RadioButton x:Name="ButonEgal" Content="=" HorizontalAlignment="Left" Margin="75,45,0,0" VerticalAlignment="Top" Checked="ButonEgal_Checked"/>
+        <RadioButton x:Name="ButonMaiMare" Content=">" HorizontalAlignment="Left" Margin="114,45,0,0" VerticalAlignment="Top" Checked="ButonMaiMare_Checked"/>
+        <TextBox x:Name="TextPret" HorizontalAlignment="Left" Margin="155,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="52"/>
+        <Label Content="Pret:" HorizontalAlignment="Left" Margin="30,14,0,0" VerticalAlignment="Top"/>
+        <Label Content="Categorie:" HorizontalAlignment="Left" Margin="25,87,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "Nume": "Calculator",
+    "CodIntern": "157235",
+    "Pret": 1800,
+    "Categorie": "abc"
+  },
+  {
+    "Id": 2,
+    "Nume": "Calculator",
+    "CodIntern": "157235",
+    "Pret": 1900,
+    "Categorie": "Tehnologia Informatiei"
+  },
+  {
+    "Id": 3,
+    "Nume": "Calculator",
+    "CodIntern": "157235",
+    "Pret": 2700,
+    "Categorie": "abc"
+  },
+  {
+    "Id": 4,
+    "Nume": "Calculator",
+    "CodIntern": "157235",
+    "Pret": 2500,
+    "Categorie": "Tehnologia Informatiei"
+  },
+  {
+    "Id": 5,
+    "Nume": "Depanare",
+    "CodIntern": "97232",
+    "Pret": 200,
+    "Categorie": "Consultatie"
+  },
+  {
+    "Id": 6,
+    "Nume": "Instalare",
+    "CodIntern": "91582",
+    "Pret": 400,
+    "Categorie": "Consultatie"
+  },
+  {
+    "Id": 7,
+    "Nume": "Livrare",
+    "CodIntern": "99882",
+    "Pret": 50,
+    "Categorie": "Remote"
+  },
+  {
+    "Id": 8,
+    "Nume": "abc",
+    "CodIntern": "126542",
+    "Pret": 2449,
+    "Categorie": "Tehnologia Informatiei"
+  },
+  {
+    "Id": 9,
+    "Nume": "xyz",
+    "CodIntern": "901273",
+    "Pret": 2899,
+    "Categorie": "Tehnologia Informatiei"
+  }
+]

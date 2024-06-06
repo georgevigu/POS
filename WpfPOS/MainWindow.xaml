@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfPOS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPOS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="MainWindow_Load">
+        <Button x:Name="AdaugaElementeButon" Content="Adauga Elemente" HorizontalAlignment="Left" Margin="81,50,0,0" VerticalAlignment="Top" Height="29" Width="112" Click="AdaugaElementeButon_Click"/>
+        <ListBox x:Name="MainBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="235,50,77,50" Loaded="ListBoxElem_Load"/>
+        <Button Content="Setari" HorizontalAlignment="Left" Margin="744,26,0,0" VerticalAlignment="Top" Click="Setari_Click"/>
+        <Button x:Name="SorteazaPretButon" Content="Sorteaza dupa pret" HorizontalAlignment="Left" Margin="81,100,0,0" VerticalAlignment="Top" Height ="29" Width="112" Click="SorteazaPretButon_Click"/>
+        <Button x:Name="Filtrare" Content="Filtreaza" HorizontalAlignment="Left" Margin="81,150,0,0" VerticalAlignment="Top" Height ="29" Width="112" Click="Filtrare_Click"/>
+        <Label Content="Lista elemente" HorizontalAlignment="Left" Margin="235,26,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="SalveazaButon" Content="Salveaza" HorizontalAlignment="Left" Margin="81,350,0,0" VerticalAlignment="Top" Height="29" Width="112" Click="SalveazaButon_Click"/>
+
+    </Grid>
+</Window>
